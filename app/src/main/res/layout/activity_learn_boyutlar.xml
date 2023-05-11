@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2EBF2"
+    tools:context=".view.learnActivities.LearnBoyutlarActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/buyukPortakal"
+            android:layout_width="301dp"
+            android:layout_height="259dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="48dp"
+            android:onClick="buyukPortakal"
+            android:src="@drawable/gerald_g_simple_fruit_ff_menu_4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="BÜYÜK"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/buyukPortakal"
+            app:layout_constraintStart_toStartOf="@+id/buyukPortakal"
+            app:layout_constraintTop_toBottomOf="@+id/buyukPortakal">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/ortaPortakal"
+            android:layout_width="164dp"
+            android:layout_height="173dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="100dp"
+            android:onClick="ortaPortakal"
+            android:src="@drawable/gerald_g_simple_fruit_ff_menu_4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="ORTA"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/ortaPortakal"
+            app:layout_constraintStart_toStartOf="@+id/ortaPortakal"
+            app:layout_constraintTop_toBottomOf="@+id/ortaPortakal">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/kucukPortakal"
+            android:layout_width="85dp"
+            android:layout_height="86dp"
+            android:layout_marginStart="568dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="16dp"
+            android:onClick="kucukPortakal"
+            android:src="@drawable/gerald_g_simple_fruit_ff_menu_4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="KÜÇÜK"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/kucukPortakal"
+            app:layout_constraintStart_toStartOf="@+id/kucukPortakal"
+            app:layout_constraintTop_toBottomOf="@+id/kucukPortakal">
+
+        </TextView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

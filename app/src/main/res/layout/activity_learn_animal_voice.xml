@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCEDC8"
+    tools:context=".view.learnActivities.LearnAnimalVoiceActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/animalVoiceCat"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceCat"
+            android:src="@drawable/animal_voice_cat"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KEDİ"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/animalVoiceCat"
+            app:layout_constraintStart_toStartOf="@+id/animalVoiceCat"
+            app:layout_constraintTop_toBottomOf="@+id/animalVoiceCat" />
+
+        <ImageView
+            android:id="@+id/animalVoiceBee"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceBee"
+            android:src="@drawable/animal_voice_bee"
+            app:layout_constraintStart_toEndOf="@+id/animalVoiceCat"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ARI"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/animalVoiceBee"
+            app:layout_constraintStart_toStartOf="@+id/animalVoiceBee"
+            app:layout_constraintTop_toBottomOf="@+id/animalVoiceBee" />
+
+        <ImageView
+            android:id="@+id/animalVoiceElephant"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceElephant"
+            android:src="@drawable/animal_voice_elephant"
+            app:layout_constraintStart_toEndOf="@+id/animalVoiceBee"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FİL"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/animalVoiceElephant"
+            app:layout_constraintStart_toStartOf="@+id/animalVoiceElephant"
+            app:layout_constraintTop_toBottomOf="@+id/animalVoiceElephant" />
+
+        <ImageView
+            android:id="@+id/animalVoiceDog"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceDog"
+            android:src="@drawable/animal_voice_dog"
+            app:layout_constraintStart_toEndOf="@+id/animalVoiceElephant"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KÖPEK"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/animalVoiceDog"
+            app:layout_constraintStart_toStartOf="@+id/animalVoiceDog"
+            app:layout_constraintTop_toBottomOf="@+id/animalVoiceDog" />
+
+        <ImageView
+            android:id="@+id/animalVoiceHorse"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceHorse"
+            android:src="@drawable/animal_voice_horse"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/animalVoiceDog"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AT"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/animalVoiceHorse"
+            app:layout_constraintStart_toStartOf="@+id/animalVoiceHorse"
+            app:layout_constraintTop_toBottomOf="@+id/animalVoiceHorse" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/animalVoiceFrog"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceFrog"
+            android:src="@drawable/animal_voice_frog"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KURBAĞA"
+            android:textColor="#3F51B5"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/animalVoiceFrog"
+            app:layout_constraintStart_toStartOf="@+id/animalVoiceFrog"
+            app:layout_constraintTop_toBottomOf="@+id/animalVoiceFrog" />
+
+        <ImageView
+            android:id="@+id/animalVoiceChicken"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceChicken"
+            android:src="@drawable/animal_voice_chicken"
+            app:layout_constraintStart_toEndOf="@+id/animalVoiceFrog"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TAVUK"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/animalVoiceChicken"
+            app:layout_constraintStart_toStartOf="@+id/animalVoiceChicken"
+            app:layout_constraintTop_toBottomOf="@+id/animalVoiceChicken" />
+
+        <ImageView
+            android:id="@+id/animalVoiceMonkey"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceMonkey"
+            android:src="@drawable/animal_voice_monkey"
+            app:layout_constraintStart_toEndOf="@+id/animalVoiceChicken"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAYMUN"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/animalVoiceMonkey"
+            app:layout_constraintStart_toStartOf="@+id/animalVoiceMonkey"
+            app:layout_constraintTop_toBottomOf="@+id/animalVoiceMonkey" />
+
+        <ImageView
+            android:id="@+id/animalVoiceCow"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceCow"
+            android:src="@drawable/animal_voice_cow"
+            app:layout_constraintStart_toEndOf="@+id/animalVoiceMonkey"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="İNEK"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/animalVoiceCow"
+            app:layout_constraintStart_toStartOf="@+id/animalVoiceCow"
+            app:layout_constraintTop_toBottomOf="@+id/animalVoiceCow" />
+
+        <ImageView
+            android:id="@+id/animalVoiceLion"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/animal_voice_lion"
+            android:onClick="voiceLion"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/animalVoiceCow"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ASLAN"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/animalVoiceLion"
+            app:layout_constraintStart_toStartOf="@+id/animalVoiceLion"
+            app:layout_constraintTop_toBottomOf="@+id/animalVoiceLion" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

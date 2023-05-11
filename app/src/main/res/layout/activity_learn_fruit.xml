@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5CAE9"
+    tools:context=".view.learnActivities.LearnFruitActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/learnFruitApple"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceCat"
+            android:src="@drawable/f_apple"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ELMA"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnFruitApple"
+            app:layout_constraintStart_toStartOf="@+id/learnFruitApple"
+            app:layout_constraintTop_toBottomOf="@+id/learnFruitApple" />
+
+        <ImageView
+            android:id="@+id/learnFruitLemon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceBee"
+            android:src="@drawable/f_lemon"
+            app:layout_constraintStart_toEndOf="@+id/learnFruitApple"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LİMON"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnFruitLemon"
+            app:layout_constraintStart_toStartOf="@+id/learnFruitLemon"
+            app:layout_constraintTop_toBottomOf="@+id/learnFruitLemon" />
+
+        <ImageView
+            android:id="@+id/learnFruitStrawberry"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceElephant"
+            android:src="@drawable/f_strawberry"
+            app:layout_constraintStart_toEndOf="@+id/learnFruitLemon"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ÇİLEK"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnFruitStrawberry"
+            app:layout_constraintStart_toStartOf="@+id/learnFruitStrawberry"
+            app:layout_constraintTop_toBottomOf="@+id/learnFruitStrawberry" />
+
+        <ImageView
+            android:id="@+id/learnFruitMelon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceDog"
+            android:src="@drawable/f_melonn"
+            app:layout_constraintStart_toEndOf="@+id/learnFruitStrawberry"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KAVUN"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnFruitMelon"
+            app:layout_constraintStart_toStartOf="@+id/learnFruitMelon"
+            app:layout_constraintTop_toBottomOf="@+id/learnFruitMelon" />
+
+        <ImageView
+            android:id="@+id/learnFruitPeach"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceHorse"
+            android:src="@drawable/f_peach"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/learnFruitMelon"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ŞEFTALİ"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnFruitPeach"
+            app:layout_constraintStart_toStartOf="@+id/learnFruitPeach"
+            app:layout_constraintTop_toBottomOf="@+id/learnFruitPeach" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/learnFruitPear"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceFrog"
+            android:src="@drawable/f_pear"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ARMUT"
+            android:textColor="#3F51B5"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnFruitPear"
+            app:layout_constraintStart_toStartOf="@+id/learnFruitPear"
+            app:layout_constraintTop_toBottomOf="@+id/learnFruitPear" />
+
+        <ImageView
+            android:id="@+id/learnFruitCherry"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceChicken"
+            android:src="@drawable/f_cherry"
+            app:layout_constraintStart_toEndOf="@+id/learnFruitPear"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KİRAZ"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnFruitCherry"
+            app:layout_constraintStart_toStartOf="@+id/learnFruitCherry"
+            app:layout_constraintTop_toBottomOf="@+id/learnFruitCherry" />
+
+        <ImageView
+            android:id="@+id/learnFruitWatermelon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceMonkey"
+            android:src="@drawable/f_watermelon"
+            app:layout_constraintStart_toEndOf="@+id/learnFruitCherry"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KARPUZ"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnFruitWatermelon"
+            app:layout_constraintStart_toStartOf="@+id/learnFruitWatermelon"
+            app:layout_constraintTop_toBottomOf="@+id/learnFruitWatermelon" />
+
+        <ImageView
+            android:id="@+id/learnFruitBanana"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceCow"
+            android:src="@drawable/f_bananaaa"
+            app:layout_constraintStart_toEndOf="@+id/learnFruitWatermelon"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MUZ"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnFruitBanana"
+            app:layout_constraintStart_toStartOf="@+id/learnFruitBanana"
+            app:layout_constraintTop_toBottomOf="@+id/learnFruitBanana" />
+
+        <ImageView
+            android:id="@+id/learnFruitOrange"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/gerald_g_simple_fruit_ff_menu_4"
+            android:onClick="voiceLion"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/learnFruitBanana"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PORTAKAL"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnFruitOrange"
+            app:layout_constraintStart_toStartOf="@+id/learnFruitOrange"
+            app:layout_constraintTop_toBottomOf="@+id/learnFruitOrange" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

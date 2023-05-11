@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2DFDB"
+    tools:context=".view.learnActivities.LearnVehicleActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/learnVehicleBus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleBus"
+            android:src="@drawable/vehicle_bus"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OTOBÜS"
+            android:textColor="#3F51B5"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnVehicleBus"
+            app:layout_constraintStart_toStartOf="@+id/learnVehicleBus"
+            app:layout_constraintTop_toBottomOf="@+id/learnVehicleBus" />
+
+        <ImageView
+            android:id="@+id/learnVehicleAmbulance"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleAmbulance"
+            android:src="@drawable/vehicle_ambulance"
+            app:layout_constraintStart_toEndOf="@+id/learnVehicleBus"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AMBULANS"
+            android:textColor="#3F51B5"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnVehicleAmbulance"
+            app:layout_constraintStart_toStartOf="@+id/learnVehicleAmbulance"
+            app:layout_constraintTop_toBottomOf="@+id/learnVehicleAmbulance" />
+
+        <ImageView
+            android:id="@+id/learnVehicleCar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleCar"
+            android:src="@drawable/vehicle_car"
+            app:layout_constraintStart_toEndOf="@+id/learnVehicleAmbulance"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ARABA"
+            android:textColor="#3F51B5"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnVehicleCar"
+            app:layout_constraintStart_toStartOf="@+id/learnVehicleCar"
+            app:layout_constraintTop_toBottomOf="@+id/learnVehicleCar" />
+
+        <ImageView
+            android:id="@+id/learnVehicleHelicopter"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleHelicopter"
+            android:src="@drawable/vehicle_helicopterr"
+            app:layout_constraintStart_toEndOf="@+id/learnVehicleCar"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HELİKOPTER"
+            android:textColor="#3F51B5"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnVehicleHelicopter"
+            app:layout_constraintStart_toStartOf="@+id/learnVehicleHelicopter"
+            app:layout_constraintTop_toBottomOf="@+id/learnVehicleHelicopter" />
+
+        <ImageView
+            android:id="@+id/learnVehicleMotorcycle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleMotorcycle"
+            android:src="@drawable/vehicle_motorcycle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/learnVehicleHelicopter"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="MOTOSİKLET"
+            android:textColor="#3F51B5"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnVehicleMotorcycle"
+            app:layout_constraintStart_toStartOf="@+id/learnVehicleMotorcycle"
+            app:layout_constraintTop_toBottomOf="@+id/learnVehicleMotorcycle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/learnVehiclePlane"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehiclePlane"
+            android:src="@drawable/vehicle_plane"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UÇAK"
+            android:textColor="#3F51B5"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnVehiclePlane"
+            app:layout_constraintStart_toStartOf="@+id/learnVehiclePlane"
+            app:layout_constraintTop_toBottomOf="@+id/learnVehiclePlane" />
+
+        <ImageView
+            android:id="@+id/learnVehicleShip"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleShip"
+            android:src="@drawable/vehicle_shippp"
+            app:layout_constraintStart_toEndOf="@+id/learnVehiclePlane"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GEMİ"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnVehicleShip"
+            app:layout_constraintStart_toStartOf="@+id/learnVehicleShip"
+            app:layout_constraintTop_toBottomOf="@+id/learnVehicleShip" />
+
+        <ImageView
+            android:id="@+id/learnVehicleTruck"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleTruck"
+            android:src="@drawable/vehicle_truck"
+            app:layout_constraintStart_toEndOf="@+id/learnVehicleShip"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KAMYON"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnVehicleTruck"
+            app:layout_constraintStart_toStartOf="@+id/learnVehicleTruck"
+            app:layout_constraintTop_toBottomOf="@+id/learnVehicleTruck" />
+
+        <ImageView
+            android:id="@+id/learnVehicleVan"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleVan"
+            android:src="@drawable/vehicle_van"
+            app:layout_constraintStart_toEndOf="@+id/learnVehicleTruck"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MİNİBÜS"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnVehicleVan"
+            app:layout_constraintStart_toStartOf="@+id/learnVehicleVan"
+            app:layout_constraintTop_toBottomOf="@+id/learnVehicleVan" />
+
+        <ImageView
+            android:id="@+id/learnVehicleBicycle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleBicycle"
+            android:src="@drawable/vehicle_bicyclee"
+            app:layout_constraintStart_toEndOf="@+id/learnVehicleVan"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BİSİKLET"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/learnVehicleBicycle"
+            app:layout_constraintStart_toStartOf="@+id/learnVehicleBicycle"
+            app:layout_constraintTop_toBottomOf="@+id/learnVehicleBicycle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

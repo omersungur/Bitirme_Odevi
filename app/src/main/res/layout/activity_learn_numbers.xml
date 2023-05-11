@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBE9E7"
+    android:id="@+id/fragmentLearnNumberss"
+    tools:context=".view.learnActivities.LearnNumbersActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="BİR"
+        android:textColor="#E20000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="İKİ"
+        android:textColor="#BE4D00"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="ÜÇ"
+        android:textColor="#F1AC02"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView16"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="DÖRT"
+        android:textColor="#FA65A5"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17"
+        app:layout_constraintStart_toStartOf="@+id/imageView17"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="BEŞ"
+        android:textColor="#CC7A34"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView18"
+        app:layout_constraintStart_toStartOf="@+id/imageView18"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="ALTI"
+        android:textColor="#00E200"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView22"
+        app:layout_constraintStart_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YEDİ"
+        android:textColor="#35C6EE"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView19"
+        app:layout_constraintStart_toStartOf="@+id/imageView19"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEKİZ"
+        android:textColor="#D008D0"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView20"
+        app:layout_constraintStart_toStartOf="@+id/imageView20"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="DOKUZ"
+        android:textColor="#003ECC"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView21"
+        app:layout_constraintStart_toStartOf="@+id/imageView21"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON"
+        android:textColor="#F30000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView30"
+        app:layout_constraintStart_toStartOf="@+id/imageView30"
+        app:layout_constraintTop_toBottomOf="@+id/imageView30">
+
+    </TextView>
+
+
+    <ImageView
+        android:onClick="numberOne"
+        android:id="@+id/imageView14"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/number_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:onClick="numberTwo"
+        android:layout_width="127dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/number_2"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:onClick="numberThree"
+        android:layout_width="127dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/number_3"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:onClick="numberFour"
+        android:layout_width="127dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/number_4"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:onClick="numberFive"
+        android:layout_width="127dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/number_5"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:onClick="numberSix"
+        android:layout_width="127dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/number_6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:onClick="numberSeven"
+        android:layout_width="127dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/number_7"
+        app:layout_constraintStart_toEndOf="@+id/imageView22"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:onClick="numberEight"
+        android:layout_width="127dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/number_8"
+        app:layout_constraintStart_toEndOf="@+id/imageView19"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:onClick="numberNine"
+        android:layout_width="127dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/number_9"
+        app:layout_constraintStart_toEndOf="@+id/imageView20"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:onClick="numberTen"
+        android:layout_width="127dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/number_10"
+        app:layout_constraintStart_toEndOf="@+id/imageView21"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18">
+
+    </ImageView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
