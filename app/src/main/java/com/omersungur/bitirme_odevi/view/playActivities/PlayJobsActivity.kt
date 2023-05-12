@@ -156,7 +156,6 @@ class PlayJobsActivity : AppCompatActivity() {
             restartAct()
         } else {
             playerY.start()
-
         }
     }
     fun voiceSoldierPlay(view: View) {

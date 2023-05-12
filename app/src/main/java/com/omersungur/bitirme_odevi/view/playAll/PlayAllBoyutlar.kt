@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.View
 import com.omersungur.bitirme_odevi.R
+import com.omersungur.bitirme_odevi.common.Sayilar
 import com.omersungur.bitirme_odevi.view.playActivities.PlayBoyutlarActivity
 import java.util.Random
 
@@ -65,6 +66,7 @@ class PlayAllBoyutlar : AppCompatActivity() {
     fun playBuyukAraba(view: View) {
         if (selectedCar == "Büyük") {
             playerD.start()
+            Sayilar.dogru++
             changeAc()
         } else {
             playerY.start()
@@ -75,6 +77,7 @@ class PlayAllBoyutlar : AppCompatActivity() {
     fun playOrtaAraba(view: View) {
         if (selectedCar == "Orta") {
             playerD.start()
+            Sayilar.dogru++
             changeAc()
         } else {
             playerY.start()
@@ -85,6 +88,7 @@ class PlayAllBoyutlar : AppCompatActivity() {
     fun playKucukAraba(view: View) {
         if (selectedCar == "Küçük") {
             playerD.start()
+            Sayilar.dogru++
             changeAc()
         } else {
             playerY.start()

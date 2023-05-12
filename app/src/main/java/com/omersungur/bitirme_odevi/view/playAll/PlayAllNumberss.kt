@@ -12,6 +12,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.omersungur.bitirme_odevi.R
+import com.omersungur.bitirme_odevi.common.Sayilar
 import com.omersungur.bitirme_odevi.view.playActivities.PlayNumbersActivity
 import kotlinx.android.synthetic.main.activity_play_numbers.boxLayout
 import kotlinx.android.synthetic.main.activity_play_numbers.numberName
@@ -247,6 +248,7 @@ class PlayAllNumberss : AppCompatActivity() {
                     isNumSelected = true
                     player = MediaPlayer.create(this@PlayAllNumberss,R.raw.dogru)
                     player.start()
+                    Sayilar.dogru++
 
                     Handler().postDelayed({
                         val intent = Intent(this@PlayAllNumberss, PlayAllAnimal::class.java)

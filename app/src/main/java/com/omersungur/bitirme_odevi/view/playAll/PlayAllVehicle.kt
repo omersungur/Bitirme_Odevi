@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.View
 import com.omersungur.bitirme_odevi.R
+import com.omersungur.bitirme_odevi.common.Sayilar
 import java.util.Random
 
 class PlayAllVehicle : AppCompatActivity() {
@@ -107,6 +108,7 @@ class PlayAllVehicle : AppCompatActivity() {
     fun vehicleBusPlay(view: View) {
         if (selectedVehicle == "Otobüs") {
             playerD.start()
+            Sayilar.dogru++
             changeActiv()
         } else {
             playerY.start()
@@ -117,6 +119,7 @@ class PlayAllVehicle : AppCompatActivity() {
     fun vehicleAmbulancePlay(view: View) {
         if (selectedVehicle == "Ambulans") {
             playerD.start()
+            Sayilar.dogru++
             changeActiv()
 
         } else {
@@ -128,6 +131,7 @@ class PlayAllVehicle : AppCompatActivity() {
     fun vehicleCarPlay(view: View) {
         if (selectedVehicle == "Araba") {
             playerD.start()
+            Sayilar.dogru++
             changeActiv()
         } else {
             playerY.start()
@@ -138,6 +142,7 @@ class PlayAllVehicle : AppCompatActivity() {
     fun vehicleHelicopterPlay(view: View) {
         if (selectedVehicle == "Helikopter") {
             playerD.start()
+            Sayilar.dogru++
             changeActiv()
         } else {
             playerY.start()
@@ -148,6 +153,7 @@ class PlayAllVehicle : AppCompatActivity() {
     fun vehicleMotorcyclePlay(view: View) {
         if (selectedVehicle == "Motosiklet") {
             playerD.start()
+            Sayilar.dogru++
             changeActiv()
         } else {
             playerY.start()
@@ -158,6 +164,7 @@ class PlayAllVehicle : AppCompatActivity() {
     fun vehiclePlanePlay(view: View) {
         if (selectedVehicle == "Uçak") {
             playerD.start()
+            Sayilar.dogru++
             changeActiv()
         } else {
             playerY.start()
@@ -167,6 +174,7 @@ class PlayAllVehicle : AppCompatActivity() {
     fun vehicleShipPlay(view: View) {
         if (selectedVehicle == "Gemi") {
             playerD.start()
+            Sayilar.dogru++
             changeActiv()
         } else {
             playerY.start()
@@ -176,6 +184,7 @@ class PlayAllVehicle : AppCompatActivity() {
     fun vehicleTruckPlay(view: View) {
         if (selectedVehicle == "Kamyon") {
             playerD.start()
+            Sayilar.dogru++
             changeActiv()
         } else {
             playerY.start()
@@ -185,6 +194,7 @@ class PlayAllVehicle : AppCompatActivity() {
     fun vehicleBicyclePlay(view: View) {
         if (selectedVehicle == "Bisiklet") {
             playerD.start()
+            Sayilar.dogru++
             changeActiv()
         } else {
             playerY.start()
@@ -194,6 +204,7 @@ class PlayAllVehicle : AppCompatActivity() {
     fun vehicleVanPlay(view: View) {
         if (selectedVehicle == "Minibüs") {
             playerD.start()
+            Sayilar.dogru++
             changeActiv()
         } else {
             playerY.start()

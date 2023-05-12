@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.View
 import com.omersungur.bitirme_odevi.R
+import com.omersungur.bitirme_odevi.common.Sayilar
 import com.omersungur.bitirme_odevi.view.playActivities.PlayAnimalActivity
 import java.util.Random
 
@@ -104,6 +105,7 @@ class PlayAllAnimal : AppCompatActivity() {
         if (selectedAnimal == "Arı") {
             playerD = MediaPlayer.create(this, R.raw.dogru_hayvan)
             playerD.start()
+            Sayilar.dogru++
             changeActivity()
 
         } else {
@@ -116,6 +118,7 @@ class PlayAllAnimal : AppCompatActivity() {
     fun voiceCatPlay(view: View) {
         if (selectedAnimal == "Kedi") {
             playerD.start()
+            Sayilar.dogru++
             changeActivity()
 
         } else {
@@ -126,6 +129,7 @@ class PlayAllAnimal : AppCompatActivity() {
     fun voiceElephantPlay(view: View) {
         if (selectedAnimal == "Fil") {
             playerD.start()
+            Sayilar.dogru++
             changeActivity()
 
         } else {
@@ -136,6 +140,7 @@ class PlayAllAnimal : AppCompatActivity() {
     fun voiceDogPlay(view: View) {
         if (selectedAnimal == "Köpek") {
             playerD.start()
+            Sayilar.dogru++
             changeActivity()
 
         } else {
@@ -146,6 +151,7 @@ class PlayAllAnimal : AppCompatActivity() {
     fun voiceHorsePlay(view: View) {
         if (selectedAnimal == "At") {
             playerD.start()
+            Sayilar.dogru++
             changeActivity()
 
         } else {
@@ -156,6 +162,7 @@ class PlayAllAnimal : AppCompatActivity() {
     fun voiceFrogPlay(view: View) {
         if (selectedAnimal == "Kurbağa") {
             playerD.start()
+            Sayilar.dogru++
             changeActivity()
 
         } else {
@@ -166,6 +173,7 @@ class PlayAllAnimal : AppCompatActivity() {
     fun voiceChickenPlay(view: View) {
         if (selectedAnimal == "Tavuk") {
             playerD.start()
+            Sayilar.dogru++
             changeActivity()
 
         } else {
@@ -176,6 +184,7 @@ class PlayAllAnimal : AppCompatActivity() {
     fun voiceMonkeyPlay(view: View) {
         if (selectedAnimal == "Maymun") {
             playerD.start()
+            Sayilar.dogru++
             changeActivity()
 
         } else {
@@ -186,6 +195,7 @@ class PlayAllAnimal : AppCompatActivity() {
     fun voiceCowPlay(view: View) {
         if (selectedAnimal == "İnek") {
             playerD.start()
+            Sayilar.dogru++
             changeActivity()
 
         } else {
@@ -196,6 +206,7 @@ class PlayAllAnimal : AppCompatActivity() {
     fun voiceLionPlay(view: View) {
         if (selectedAnimal == "Aslan") {
             playerD.start()
+            Sayilar.dogru++
             changeActivity()
 
         } else {

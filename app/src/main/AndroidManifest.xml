@@ -12,9 +12,13 @@
         android:theme="@style/Theme.Bitirme_Odevi"
         tools:targetApi="31">
         <activity
-            android:name=".view.playAll.PlayAllJobs"
+            android:name=".view.playAll.ScoreActivity"
             android:exported="false"
             android:screenOrientation="landscape"/>
+        <activity
+            android:name=".view.playAll.PlayAllJobs"
+            android:exported="false"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".view.playAll.PlayAllFruit"
             android:exported="false"

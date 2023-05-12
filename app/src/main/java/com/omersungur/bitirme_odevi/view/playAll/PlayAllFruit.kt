@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.View
 import com.omersungur.bitirme_odevi.R
+import com.omersungur.bitirme_odevi.common.Sayilar.dogru
 import com.omersungur.bitirme_odevi.view.playActivities.PlayFruitActivity
 import java.util.Random
 
@@ -98,7 +99,7 @@ class PlayAllFruit : AppCompatActivity() {
 
     private fun changeActivityy() {
         Handler().postDelayed({
-            val intent = Intent(this@PlayAllFruit, PlayFruitActivity::class.java)
+            val intent = Intent(this@PlayAllFruit, PlayAllJobs::class.java)
             startActivity(intent)
             finish()
         }, 3000)
@@ -107,6 +108,7 @@ class PlayAllFruit : AppCompatActivity() {
     fun voiceApplePlay(view: View) {
         if (selectedFruit == "Elma") {
             playerD.start()
+            dogru++
             changeActivityy()
         } else {
             playerY.start()
@@ -117,6 +119,7 @@ class PlayAllFruit : AppCompatActivity() {
     fun voiceLemonPlay(view: View) {
         if (selectedFruit == "Limon") {
             playerD.start()
+            dogru++
             changeActivityy()
         } else {
             playerY.start()
@@ -127,6 +130,7 @@ class PlayAllFruit : AppCompatActivity() {
     fun voiceStrawberryPlay(view: View) {
         if (selectedFruit == "Çilek") {
             playerD.start()
+            dogru++
             changeActivityy()
         } else {
             playerY.start()
@@ -137,6 +141,7 @@ class PlayAllFruit : AppCompatActivity() {
     fun voiceMelonPlay(view: View) {
         if (selectedFruit == "Kavun") {
             playerD.start()
+            dogru++
             changeActivityy()
         } else {
             playerY.start()
@@ -147,6 +152,7 @@ class PlayAllFruit : AppCompatActivity() {
     fun voicePeachPlay(view: View) {
         if (selectedFruit == "Şeftali") {
             playerD.start()
+            dogru++
             changeActivityy()
         } else {
             playerY.start()
@@ -157,6 +163,7 @@ class PlayAllFruit : AppCompatActivity() {
     fun voicePearPlay(view: View) {
         if (selectedFruit == "Armut") {
             playerD.start()
+            dogru++
             changeActivityy()
         } else {
             playerY.start()
@@ -167,6 +174,7 @@ class PlayAllFruit : AppCompatActivity() {
     fun voiceCherryPlay(view: View) {
         if (selectedFruit == "Kiraz") {
             playerD.start()
+            dogru++
             changeActivityy()
         } else {
             playerY.start()
@@ -177,6 +185,7 @@ class PlayAllFruit : AppCompatActivity() {
     fun voiceWatermelonPlay(view: View) {
         if (selectedFruit == "Karpuz") {
             playerD.start()
+            dogru++
             changeActivityy()
         } else {
             playerY.start()
@@ -187,6 +196,7 @@ class PlayAllFruit : AppCompatActivity() {
     fun voiceBananaPlay(view: View) {
         if (selectedFruit == "Muz") {
             playerD.start()
+            dogru++
             changeActivityy()
         } else {
             playerY.start()
@@ -197,6 +207,7 @@ class PlayAllFruit : AppCompatActivity() {
     fun voiceOrangePlay(view: View) {
         if (selectedFruit == "Portakal") {
             playerD.start()
+            dogru++
             changeActivityy()
         } else {
             playerY.start()

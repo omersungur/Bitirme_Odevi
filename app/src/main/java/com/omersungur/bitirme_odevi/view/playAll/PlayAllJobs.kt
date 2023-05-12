@@ -32,7 +32,7 @@ class PlayAllJobs : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_play_all_jobs)
         playerD = MediaPlayer.create(this, R.raw.dogru_meslek)
-        playerY = MediaPlayer.create(this, R.raw.yanlis_meslek)
+        playerY = MediaPlayer.create(this, R.raw.yanliss)
 
 
         player2 = MediaPlayer.create(this, R.raw.polis_sec)
@@ -108,7 +108,7 @@ class PlayAllJobs : AppCompatActivity() {
     }
     private fun changeA() {
         Handler().postDelayed({
-            val intent = Intent(this@PlayAllJobs, PlayJobsActivity::class.java)
+            val intent = Intent(this@PlayAllJobs, ScoreActivity::class.java)
             startActivity(intent)
             finish()
         }, 3000)
