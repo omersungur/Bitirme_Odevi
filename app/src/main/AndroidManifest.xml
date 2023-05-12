@@ -12,13 +12,45 @@
         android:theme="@style/Theme.Bitirme_Odevi"
         tools:targetApi="31">
         <activity
-            android:name=".view.playActivities.PlayFruitActivity"
+            android:name=".view.playAll.PlayAllJobs"
             android:exported="false"
             android:screenOrientation="landscape"/>
         <activity
+            android:name=".view.playAll.PlayAllFruit"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.playAll.PlayAllBoyutlar"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.playAll.PlayAllVehicle"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.playAll.PlayAllAnimal"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.playAll.PlayAllNumberss"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.playActivities.PlayJobsActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.learnActivities.LearnJobsActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.playActivities.PlayFruitActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
             android:name=".view.learnActivities.LearnFruitActivity"
             android:exported="false"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".view.playActivities.PlayVehicleActivity"
             android:exported="false"

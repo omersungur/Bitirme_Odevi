@@ -21,7 +21,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginTop="30dp"
-            android:onClick="voiceCat"
+            android:onClick="voiceApple"
             android:src="@drawable/f_apple"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -45,7 +45,7 @@
             android:layout_height="100dp"
             android:layout_marginStart="50dp"
             android:layout_marginTop="30dp"
-            android:onClick="voiceBee"
+            android:onClick="voiceLemon"
             android:src="@drawable/f_lemon"
             app:layout_constraintStart_toEndOf="@+id/learnFruitApple"
             app:layout_constraintTop_toTopOf="parent">
@@ -69,7 +69,7 @@
             android:layout_height="100dp"
             android:layout_marginStart="50dp"
             android:layout_marginTop="30dp"
-            android:onClick="voiceElephant"
+            android:onClick="voiceStrawberry"
             android:src="@drawable/f_strawberry"
             app:layout_constraintStart_toEndOf="@+id/learnFruitLemon"
             app:layout_constraintTop_toTopOf="parent">
@@ -93,7 +93,7 @@
             android:layout_height="100dp"
             android:layout_marginStart="50dp"
             android:layout_marginTop="30dp"
-            android:onClick="voiceDog"
+            android:onClick="voiceMelon"
             android:src="@drawable/f_melonn"
             app:layout_constraintStart_toEndOf="@+id/learnFruitStrawberry"
             app:layout_constraintTop_toTopOf="parent">
@@ -117,7 +117,7 @@
             android:layout_height="100dp"
             android:layout_marginStart="50dp"
             android:layout_marginTop="30dp"
-            android:onClick="voiceHorse"
+            android:onClick="voicePeach"
             android:src="@drawable/f_peach"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/learnFruitMelon"
@@ -152,7 +152,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginTop="30dp"
-            android:onClick="voiceFrog"
+            android:onClick="voicePear"
             android:src="@drawable/f_pear"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -176,7 +176,7 @@
             android:layout_height="100dp"
             android:layout_marginStart="50dp"
             android:layout_marginTop="30dp"
-            android:onClick="voiceChicken"
+            android:onClick="voiceCherry"
             android:src="@drawable/f_cherry"
             app:layout_constraintStart_toEndOf="@+id/learnFruitPear"
             app:layout_constraintTop_toTopOf="parent">
@@ -200,7 +200,7 @@
             android:layout_height="100dp"
             android:layout_marginStart="50dp"
             android:layout_marginTop="30dp"
-            android:onClick="voiceMonkey"
+            android:onClick="voiceWatermelon"
             android:src="@drawable/f_watermelon"
             app:layout_constraintStart_toEndOf="@+id/learnFruitCherry"
             app:layout_constraintTop_toTopOf="parent">
@@ -224,7 +224,7 @@
             android:layout_height="100dp"
             android:layout_marginStart="50dp"
             android:layout_marginTop="30dp"
-            android:onClick="voiceCow"
+            android:onClick="voiceBanana"
             android:src="@drawable/f_bananaaa"
             app:layout_constraintStart_toEndOf="@+id/learnFruitWatermelon"
             app:layout_constraintTop_toTopOf="parent">
@@ -249,7 +249,7 @@
             android:layout_marginStart="50dp"
             android:layout_marginTop="30dp"
             android:src="@drawable/gerald_g_simple_fruit_ff_menu_4"
-            android:onClick="voiceLion"
+            android:onClick="voiceOrange"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/learnFruitBanana"
             app:layout_constraintTop_toTopOf="parent">

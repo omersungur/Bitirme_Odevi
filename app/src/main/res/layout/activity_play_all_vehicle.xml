@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1C4E9"
+    tools:context=".view.playActivities.PlayVehicleActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/playVehicleBus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleBusPlay"
+            android:src="@drawable/vehicle_bus"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+
+        <ImageView
+            android:id="@+id/playVehicleAmbulance"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleAmbulancePlay"
+            android:src="@drawable/vehicle_ambulance"
+            app:layout_constraintStart_toEndOf="@+id/playVehicleBus"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/learnVehicleCar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleCarPlay"
+            android:src="@drawable/vehicle_car"
+            app:layout_constraintStart_toEndOf="@+id/playVehicleAmbulance"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/playVehicleHelicopter"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleHelicopterPlay"
+            android:src="@drawable/vehicle_helicopterr"
+            app:layout_constraintStart_toEndOf="@+id/learnVehicleCar"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+
+        <ImageView
+            android:id="@+id/playVehicleMotorcycle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleMotorcyclePlay"
+            android:src="@drawable/vehicle_motorcycle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/playVehicleHelicopter"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/playVehiclePlane"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehiclePlanePlay"
+            android:src="@drawable/vehicle_plane"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/playVehicleShip"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleShipPlay"
+            android:src="@drawable/vehicle_shippp"
+            app:layout_constraintStart_toEndOf="@+id/playVehiclePlane"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/playVehicleTruck"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleTruckPlay"
+            android:src="@drawable/vehicle_truck"
+            app:layout_constraintStart_toEndOf="@+id/playVehicleShip"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/playVehicleVan"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleVanPlay"
+            android:src="@drawable/vehicle_van"
+            app:layout_constraintStart_toEndOf="@+id/playVehicleTruck"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+
+        <ImageView
+            android:id="@+id/playVehicleBicycle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="vehicleBicyclePlay"
+            android:src="@drawable/vehicle_bicyclee"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/playVehicleVan"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

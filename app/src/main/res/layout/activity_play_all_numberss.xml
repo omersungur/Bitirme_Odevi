@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/playNumConstraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBE9E7"
+    tools:context=".view.playActivities.PlayNumbersActivity">
+
+    <ImageView
+        android:id="@+id/playNumber1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/number_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/playNumber2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playNumber1"
+        app:srcCompat="@drawable/number_2" />
+
+    <ImageView
+        android:id="@+id/playNumber3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/number_3" />
+
+    <ImageView
+        android:id="@+id/playNumber4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/number_4" />
+
+    <ImageView
+        android:id="@+id/playNumber5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/number_5" />
+
+    <ImageView
+        android:id="@+id/playNumber6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="130dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/number_6" />
+
+    <ImageView
+        android:id="@+id/playNumber7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/number_7" />
+
+    <ImageView
+        android:id="@+id/playNumber8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/number_8" />
+
+    <ImageView
+        android:id="@+id/playNumber9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/number_9" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/boxLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/playNumberBox"
+            android:layout_width="180dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="125dp"
+            android:src="@drawable/box"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/numberName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sayı Kelime"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/boxLayout"
+        app:layout_constraintTop_toBottomOf="@+id/boxLayout">
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

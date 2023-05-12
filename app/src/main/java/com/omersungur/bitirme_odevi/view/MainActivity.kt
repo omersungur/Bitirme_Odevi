@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.omersungur.bitirme_odevi.R
+import com.omersungur.bitirme_odevi.view.playAll.PlayAllNumberss
 
 class MainActivity : AppCompatActivity() {
 
@@ -28,7 +29,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun playAllButton(view : View) {
-        val intent = Intent(this,PlayAllActivity::class.java)
+        val intent = Intent(this,PlayAllNumberss::class.java)
         startActivity(intent)
     }
 }

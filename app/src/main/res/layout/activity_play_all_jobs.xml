@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE0B2"
+    tools:context=".view.playActivities.PlayJobsActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/jobsPlayPolice"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voicePolicePlay"
+            android:src="@drawable/jobs_police"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POLİS"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/jobsPlayPolice"
+            app:layout_constraintStart_toStartOf="@+id/jobsPlayPolice"
+            app:layout_constraintTop_toBottomOf="@+id/jobsPlayPolice" />
+
+        <ImageView
+            android:id="@+id/jobsPlayPostman"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voicePostmanPlay"
+            android:src="@drawable/jobs_postman"
+            app:layout_constraintStart_toEndOf="@+id/jobsPlayPolice"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POSTACI"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/jobsPlayPostman"
+            app:layout_constraintStart_toStartOf="@+id/jobsPlayPostman"
+            app:layout_constraintTop_toBottomOf="@+id/jobsPlayPostman" />
+
+        <ImageView
+            android:id="@+id/jobsPlaySinger"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceSingerPlay"
+            android:src="@drawable/jobs_singer"
+            app:layout_constraintStart_toEndOf="@+id/jobsPlayPostman"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ŞARKICI"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/jobsPlaySinger"
+            app:layout_constraintStart_toStartOf="@+id/jobsPlaySinger"
+            app:layout_constraintTop_toBottomOf="@+id/jobsPlaySinger" />
+
+        <ImageView
+            android:id="@+id/jobsLearnTech"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceTechPlay"
+            android:src="@drawable/jobs_hardware_technician"
+            app:layout_constraintStart_toEndOf="@+id/jobsPlaySinger"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEKNİSYEN"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/jobsLearnTech"
+            app:layout_constraintStart_toStartOf="@+id/jobsLearnTech"
+            app:layout_constraintTop_toBottomOf="@+id/jobsLearnTech" />
+
+        <ImageView
+            android:id="@+id/jobsPlayPilot"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voicePilotPlay"
+            android:src="@drawable/jobs_pilot"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/jobsLearnTech"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PİLOT"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/jobsPlayPilot"
+            app:layout_constraintStart_toStartOf="@+id/jobsPlayPilot"
+            app:layout_constraintTop_toBottomOf="@+id/jobsPlayPilot" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/jobsPlayMechanic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceMechanicPlay"
+            android:src="@drawable/jobs_mechanic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TAMİRCİ"
+            android:textColor="#3F51B5"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/jobsPlayMechanic"
+            app:layout_constraintStart_toStartOf="@+id/jobsPlayMechanic"
+            app:layout_constraintTop_toBottomOf="@+id/jobsPlayMechanic" />
+
+        <ImageView
+            android:id="@+id/jobsPlaySoldier"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceSoldierPlay"
+            android:src="@drawable/jobs_soldier"
+            app:layout_constraintStart_toEndOf="@+id/jobsPlayMechanic"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ASKER"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/jobsPlaySoldier"
+            app:layout_constraintStart_toStartOf="@+id/jobsPlaySoldier"
+            app:layout_constraintTop_toBottomOf="@+id/jobsPlaySoldier" />
+
+        <ImageView
+            android:id="@+id/jobsPlayTeacher"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceTeacherPlay"
+            android:src="@drawable/jobs_teacher"
+            app:layout_constraintStart_toEndOf="@+id/jobsPlaySoldier"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ÖĞRETMEN"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/jobsPlayTeacher"
+            app:layout_constraintStart_toStartOf="@+id/jobsPlayTeacher"
+            app:layout_constraintTop_toBottomOf="@+id/jobsPlayTeacher" />
+
+        <ImageView
+            android:id="@+id/jobsPlayDoctor"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="voiceDoctorPlay"
+            android:src="@drawable/jobs_doctor"
+            app:layout_constraintStart_toEndOf="@+id/jobsPlayTeacher"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DOKTOR"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/jobsPlayDoctor"
+            app:layout_constraintStart_toStartOf="@+id/jobsPlayDoctor"
+            app:layout_constraintTop_toBottomOf="@+id/jobsPlayDoctor" />
+
+        <ImageView
+            android:id="@+id/jobsPlayReporter"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/jobs_rep"
+            android:onClick="voiceReporterPlay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/jobsPlayDoctor"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HABERCİ"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/jobsPlayReporter"
+            app:layout_constraintStart_toStartOf="@+id/jobsPlayReporter"
+            app:layout_constraintTop_toBottomOf="@+id/jobsPlayReporter" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,8 +7,10 @@ import androidx.appcompat.app.AppCompatActivity
 import com.omersungur.bitirme_odevi.view.learnActivities.LearnAnimalVoiceActivity
 import com.omersungur.bitirme_odevi.view.learnActivities.LearnBoyutlarActivity
 import com.omersungur.bitirme_odevi.view.learnActivities.LearnFruitActivity
+import com.omersungur.bitirme_odevi.view.learnActivities.LearnJobsActivity
 import com.omersungur.bitirme_odevi.view.learnActivities.LearnNumbersActivity
 import com.omersungur.bitirme_odevi.view.learnActivities.LearnVehicleActivity
+import com.omersungur.bitirme_odevi.view.playActivities.PlayJobsActivity
 
 class LearnActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,6 +40,11 @@ class LearnActivity : AppCompatActivity() {
 
     fun learnFruit(view: View) {
         val intent = Intent(this, LearnFruitActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun learnMeslekler(view: View) {
+        val intent = Intent(this, LearnJobsActivity::class.java)
         startActivity(intent)
     }
 }

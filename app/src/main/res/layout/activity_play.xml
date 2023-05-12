@@ -245,6 +245,7 @@
                 android:layout_height="175dp"
                 android:layout_marginRight="25dp"
                 app:cardBackgroundColor="#58B0CC"
+                android:onClick="playMeslekler"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="10dp">
 
@@ -253,12 +254,12 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/playMevsimler"
+                        android:id="@+id/playMeslekler"
                         android:layout_width="157dp"
                         android:layout_height="115dp"
                         android:layout_marginTop="5dp"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/seasons"
+                        android:src="@drawable/meslekler"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent">
@@ -269,56 +270,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="MEVSİMLER"
+                        android:text="MESLEKLER"
                         android:textSize="24sp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/playMevsimler">
-
-                    </TextView>
-
-                </androidx.constraintlayout.widget.ConstraintLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="175dp"
-                android:layout_height="175dp"
-                android:layout_marginRight="25dp"
-                app:cardBackgroundColor="#00FF04"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="10dp">
-
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:id="@+id/playEslestir"
-                        android:layout_width="157dp"
-                        android:layout_height="115dp"
-                        android:layout_marginTop="5dp"
-                        android:scaleType="fitCenter"
-                        android:src="@drawable/play_eslestir"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent">
-
-                    </ImageView>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="EŞLEŞTİR"
-                        android:textSize="24sp"
-                        android:textStyle="bold"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/playEslestir">
+                        app:layout_constraintTop_toBottomOf="@+id/playMeslekler">
 
                     </TextView>
 

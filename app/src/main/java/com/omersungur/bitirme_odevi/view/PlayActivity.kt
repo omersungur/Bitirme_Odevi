@@ -10,6 +10,7 @@ import com.omersungur.bitirme_odevi.view.learnActivities.LearnVehicleActivity
 import com.omersungur.bitirme_odevi.view.playActivities.PlayAnimalActivity
 import com.omersungur.bitirme_odevi.view.playActivities.PlayBoyutlarActivity
 import com.omersungur.bitirme_odevi.view.playActivities.PlayFruitActivity
+import com.omersungur.bitirme_odevi.view.playActivities.PlayJobsActivity
 import com.omersungur.bitirme_odevi.view.playActivities.PlayNumbersActivity
 import com.omersungur.bitirme_odevi.view.playActivities.PlayVehicleActivity
 
@@ -41,6 +42,11 @@ class PlayActivity : AppCompatActivity() {
 
     fun playFruit(view: View) {
         val intent = Intent(this, PlayFruitActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun playMeslekler(view: View) {
+        val intent = Intent(this, PlayJobsActivity::class.java)
         startActivity(intent)
     }
 }
